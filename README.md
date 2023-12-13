@@ -1,10 +1,63 @@
-- 👋 Hi, I’m @farhan29999
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+-<!DOCTYPE html>
+<html lang="fr">
 
-<!---
-farhan29999/farhan29999 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des voiture</title>
+    <link rel="stylesheet" href="CSS/flexible.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-<votre-valeur-de-hachage>" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <ul class="flexible justify-content-space-around">
+            <li><a href="index.html"> Accueil</a></li>
+            <li><a href="mesJeu.html"> Des motos</a></li>
+            <li><a href="pageProfil.html"> Page de profil</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Liste des Voitures</h1>
+        <a class="color-2a1e5a" href="https://gocar.be/fr" target="_blank" rel="noopener noreferrer">Site d'achat de
+            voiture</a>
+        <div class="flexible flex-wrap justify-content-space-around partieCentrale">
+            <div>
+                <h2>Image du Bugatti Veyron </h2>
+                <img src="images/BugattiVeyron.jpeg" alt="Bugatti">
+                <p>C'est un beau VOITURE</p>
+                <h3><span>Informations sur </span> <span> le véhicule</span></h3>
+                <a href="hom.html">Cliquez ici</a>
+            </div>
+            <div>
+                <h2>Classe E Berline. - Mercedes Benz</h2>
+                <img src="images/benze.jpg" alt="Classe E Berline. - Mercedes Benz">
+                <p>Le meilleur de Mercedes à ce jour</p>
+                <h3><span>Informations sur </span> <span> le véhicule</span></h3>
+                <a href="hom.html">Cliquez ici</a>
+            </div>
+            <div>
+                <h2>VOITURE de la BMW</h2>
+                <img alt="BMW" src="images/BMW.jpeg">
+                <p>C'est un beau VOITURE</p>
+                <h3><span>Informations sur </span> <span> le véhicule</span></h3>
+                <a href="hom.html">Cliquez ici</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="flexible justify-content-space-between">
+        <p class="p">Abuzour Farhan</p>
+        <div class="non3">
+            <img id="padding" class="imageIcon non3" src="Images/icon1.jpg" alt="image twitter">
+            <img id="padding" class="imageIcon non3" src="Images/icon2.jpg" alt="image facebook">
+            <img id="padding" class="imageIcon non3" src="Images/icon3.jpg" alt="image google">
+        </div>
+    </footer>
+
+</body>
+
+</html>
